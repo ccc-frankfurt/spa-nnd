@@ -78,7 +78,7 @@ def train(spa_nn,
     :param snr_range_train: a np.array with signal-to-noise ratio values in dB between [-2, ..., 4]
     :param snr_range_validation: should be set to the same range as the snr_range_train to check for overfitting, can
                                  also be set to np.arange(-5, 8.5, 0.5) to match the realistic setup used in the test
-                                 dataset. Make sure
+                                 dataset.
     :param codewords_per_snr_validation: using 500 codewords per snr in validation dataset provided robust results, be
                                          aware that your validation dataset size will be
                                          snr_range_validation.shape[0] * codewords_per_snr_validation,
