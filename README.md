@@ -5,7 +5,8 @@ in the scope of the bachelor thesis _"On the Correspondence Between
 Classic Coding Theory and Machine Learning"_. 
 The Sum-Product Algorithm (SPA) is used for decoding error correcting codes like for 
 example Low-Density Parity-Check Codes (LDPC codes). SPA is a message passing algorithm where 
-the parity check matrix H is transformed into a bipartite graph called Tanner graph. 
+the parity check matrix H is transformed into a bipartite graph called Tanner graph.
+
 ![Alt text](tanner-graph-from-h.png?raw=true "Tanner graph form parity-check matrix H")
 
 Messages are passed along the edges from variable nodes to check nodes and back in each iteration. 
